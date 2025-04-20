@@ -1,1 +1,1 @@
-# Gradient-Descent-Insights-into-Behavior-and-Optimization-Challenges
+# Gradient Descent: Insights into Behavior and Optimization Challenges
