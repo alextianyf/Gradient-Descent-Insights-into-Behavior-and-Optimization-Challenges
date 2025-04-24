@@ -15,7 +15,7 @@ The goal is to **diagnose and understand the practical limitations** of gradient
 
 ## File Structure
 
-```css
+```bash
 ├── grad_descent_lib/
 │   ├── algo.py             # Core implementation of gradient descent algorithm
 │   ├── plot_func.py        # Encapsulated plotting utilities for surface and trajectory visualization
