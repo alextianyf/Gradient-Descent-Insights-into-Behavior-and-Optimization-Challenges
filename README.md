@@ -2,9 +2,13 @@
 
 This notebook demonstrates how different initialization strategies and learning rates affect the convergence of the gradient descent optimizer on various cost functions.
 
+## Project Motivation
+
+Gradient descent is fundamental to modern machine learning. Understanding its failure modes helps practitioners debug models and select better hyperparameters.
+
 ## Project Overview
 
-this notebook investigates:
+This notebook investigates the following key aspects of gradient descent:
 
 - How the **initial values** of coefficients affect convergence
 - The impact of **learning rate selection** on optimization efficiency
@@ -16,11 +20,13 @@ The goal is to **diagnose and understand the practical limitations** of gradient
 ## File Structure
 
 ```bash
+.
 ├── grad_descent_lib/
 │   ├── algo.py             # Core implementation of gradient descent algorithm
 │   ├── plot_func.py        # Encapsulated plotting utilities for surface and trajectory visualization
 │
 ├── discussion.ipynb        # Main notebook demonstrating 4 case studies
+├── requirements.txt        # Minimal dependencies needed to run the notebook
 ├── LICENSE                 # Open-source license information
 ├── .gitignore              # Files and folders to ignore in version control
 └── README.md               # Project documentation (this file)
@@ -43,9 +49,44 @@ Each case includes:
 
 ### Overview of the 4 Case Studies
 
+The following table summarizes the theme and learning objectives of each case study:
+
 | Case | Title | Focus Description |
 |------|-------|-------------------|
 | **1** | Initialization and Convergence | Demonstrates how different starting points lead to different convergence paths and rates — some fast, some slow, some possibly stuck. |
 | **2** | Divergence and Overflow | Shows how excessively large learning rates cause the optimizer to overshoot the minimum, explode in value, or diverge entirely. |
 | **3** | Oscillation vs. Slow Descent | Compares moderate vs. small learning rates — large rates oscillate near the minimum, while small rates converge slowly but safely. |
 | **4** | Local Minima in Non-Convex Landscapes | Highlights the challenges of optimizing non-convex functions — the optimizer may settle into a local minimum, depending on the initial value. |
+
+## Development & Reproduction
+
+To run, verify, or modify this project, the following environment is recommended:
+
+- **Python version**: 3.12.4
+- **IDE**: Visual Studio Code  
+  Alternatively, you may explore the notebook interactively using **JupyterLab** or **Google Colab**.
+
+Install the required packages using:
+
+```bash
+pip install -r requirements.txt
+```
+
+> The requirements.txt file was automatically generated using pipreqs:
+
+```bash
+pipreqs . --force
+```
+
+## License
+
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, distribute, or include this work in commercial projects, as long as the original copyright notice and this license are included.
+
+See the [LICENSE](./LICENSE) file for full details.
+
+## Authour
+
+**Alex Tian**  
+MASc | Data Scientist | Machine Learning Researcher  
