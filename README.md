@@ -1,5 +1,11 @@
 # Gradient Descent: Insights into Behavior and Optimization Challenges
 
+This notebook demonstrates how different initialization strategies and learning rates affect the convergence of the gradient descent optimizer on various cost functions.
+
+**Author**: Alex Tian  
+**Date**: 2025  
+**Purpose**: Teaching and showcasing practical behaviors of optimization algorithms for machine learning learners.
+
 ## Project Overview
 
 This project explores the **practical behavior of Gradient Descent** through the lens of **Mean Squared Error (MSE)** minimization in simple linear regression.
