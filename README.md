@@ -1,22 +1,20 @@
 # Gradient Descent: Insights into Behavior and Optimization Challenges
 
-This notebook demonstrates how different initialization strategies and learning rates affect the convergence of the gradient descent optimizer on various cost functions.
-
-## Project Motivation
-
-Gradient descent is fundamental to modern machine learning. Understanding its failure modes helps practitioners debug models and select better hyperparameters.
-
-## Project Overview
-
-This notebook investigates the following key aspects of gradient descent:
+This notebook demonstrates how different initialization strategies and learning rates affect the convergence of the gradient descent optimizer on various cost functions. The following key aspects of gradient descent were investigated:
 
 - How the **initial values** of coefficients affect convergence
+
 - The impact of **learning rate selection** on optimization efficiency
+
 - **Visualization of the MSE surface** to illustrate optimization paths
+
 - Common pitfalls such as **slow convergence**, **divergence**, and **local minima**
+
 - How to **manually implement gradient descent from scratch**, without using external libraries — which deepens understanding of the algorithm and may be beneficial for future debugging or job interviews
 
 The goal is to **diagnose and understand the practical limitations** of gradient-based optimization methods — a valuable perspective for both data science and machine learning engineering tasks.
+
+> Project Motivation: Gradient descent is fundamental to modern machine learning. Understanding its failure modes helps practitioners debug models and select better hyperparameters.
 
 ## File Structure
 
