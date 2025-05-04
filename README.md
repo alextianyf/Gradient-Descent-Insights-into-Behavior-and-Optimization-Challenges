@@ -25,8 +25,10 @@ The goal is to **diagnose and understand the practical limitations** of gradient
 ├── grad_descent_lib/
 │   ├── algo.py             # Core implementation of gradient descent algorithm
 │   ├── plot_func.py        # Encapsulated plotting utilities for surface and trajectory visualization
+├── images/                 # Conceptual visual illustrations
+├── notebooks/              # Jupyter notebooks used to generate supporting diagrams 
 │
-├── discussion.ipynb        # Main notebook demonstrating 4 case studies
+├── main-discussion.md      # Main demonstrating 4 case studies
 ├── requirements.txt        # Minimal dependencies needed to run the notebook
 ├── LICENSE                 # Open-source license information
 ├── .gitignore              # Files and folders to ignore in version control
@@ -81,11 +83,10 @@ pipreqs . --force
 
 ## License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.  
+You are free to use and adapt the materials for **non-commercial** purposes, but **you must credit the author**.
 
-You are free to use, modify, distribute, or include this work in commercial projects, as long as the original copyright notice and this license are included.
-
-See the [LICENSE](./LICENSE) file for full details.
+See the full license text in the [LICENSE](./LICENSE) file.
 
 ## Authour
 
