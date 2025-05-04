@@ -28,7 +28,7 @@ The goal is to **diagnose and understand the practical limitations** of gradient
 │
 ├── main-discussion.md      # Main demonstrating 4 case studies
 ├── requirements.txt        # Minimal dependencies needed to run the notebook
-├── LICENSE                 # Open-source license information
+├── LICENSE                 # Project license (CC BY-NC 4.0)
 ├── .gitignore              # Files and folders to ignore in version control
 └── README.md               # Project documentation (this file)
 ```
